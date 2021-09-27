@@ -1,0 +1,34 @@
+body {
+    background-color: antiquewhite;
+}
+
+.menu {
+    background-color: rgb(230, 169, 179);
+    border-radius: 7px;
+}
+
+.menu a {
+    color:rgb(155, 66, 81);
+}
+
+.menu a:hover {
+    color:rgb(247, 214, 219);
+}
+
+.copyright, .icei {
+    display: inline;
+}
+
+.icei {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: rgb(230, 169, 179);
+    border-radius: 7px;
+    margin-top: 10px;
+    min-height: 45px;
+    padding-left: 35px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
