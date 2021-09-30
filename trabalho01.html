@@ -17,39 +17,37 @@
 
 <body>
 
-    <header class="header container">
+    <header class="header">
+        <nav>
+            <input type="checkbox" id="menuToggle">
+            <label for="menuToggle" class="menu-icon">
+                <i class="fa fa-bars"></i>
+                <i class="fa fa-times-circle"></i>
+            </label>
 
-        <div class="row cabecalho">
 
-            <div class="col-6 justify-content-center">
+            <ul class="menu">
+                <li><a href="a">Perfil</a></li>
+                <li class="slash">|</li>
+                <li><a href="a">Projetos</a></li>
+                <li class="slash">|</li>
+                <li><a href="a">Experiências</a></li>
+                <li class="slash">|</li>
+                <li><a href="a">Repositórios Github</a></li>
+                <li class="slash">|</li>
+                <li><a href="a">Conteúdo</a></li>
+            </ul>
 
-                <nav class="nav menu">
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+                <button class="btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
+            </form>
 
-                    <a class="nav-link active" href="a">Perfil</a>
-                    <a class="nav-link" href="a">Projetos</a>
-                    <a class="nav-link" href="a">Experiência</a>
-                    <a class="nav-link" href="a">Repositório github</a>
-                    <a class="nav-link" href="a">Conteúdo</a>
-
-                </nav>
-            </div>
-
-            <div class="justify-content-end">
-                <form class="col-3 form-inline">
-                    <input class="form-control btn-outline-danger mr-sm-2" type="search" placeholder=""
-                        aria-label="Search">
-                </form>
-                <button class="col-3 btn btn-outline-danger my-2 my-sm-0" type="submit">Search</button>
-            </div>
-
-        </div>
-
+        </nav>
     </header>
 
-    <main class="container">
 
-    </main>
-
+    <!--
     <footer class="container footer">
         <div class="row rodape">
             <div class="col-9">
@@ -58,7 +56,7 @@
                 <div class="icei"> ICEI PUC MINAS </div>
                 </p>
             </div>
-            
+
             <div class="col-1">
                 <img src="/imgs/icei_logo_final.png" class="img1">
             </div>
@@ -68,6 +66,7 @@
         </div>
 
     </footer>
+    -->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"

@@ -2,54 +2,74 @@ body {
     background-color: antiquewhite;
 }
 
-.header {
-    background-color: rgb(230, 169, 179);
-    border-radius: 7px;
-}
-
-.menu {
-    padding-top: 10px;
-}
-
-.menu a {
-    color:rgb(155, 66, 81);
-}
-
-.menu a:hover {
-    color:rgb(247, 214, 219);
-}
-
+/*
 .icei {
     font-weight: bold;
+} 
+*/
+
+/* ------------- Header ------------- */
+
+.header {
+    background-color: rgb(230, 169, 179);
+    border-radius: 5px;
+    display: inline-flexbox;
+    flex-wrap: wrap;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px;
+    padding-left: 0px;
 }
 
-.form-inline {
-    padding-top: 10px;
+.menu {display: flex;}
+
+.menu li {list-style: none;
+    margin-left: 10px;
+    margin-top: 12px;
+    color: rgb(87, 0, 82);
+    font-weight: 500;
+}
+.header a {text-decoration: none;
+    color: rgb(87, 0, 82);
+    font-weight: 500;
 }
 
-.form-control {
-    background-color: rgb(245, 236, 237);
+.header a:hover {text-decoration: none;
+    color: rgb(218, 127, 213);
+    font-weight: 500;
 }
 
-.form-control:hover {
-    background-color: rgb(247, 214, 219);
-}
+/* ------------- Header ------------- */
 
-.form-inline > button {
-    background-color: rgb(235, 199, 205);
-}
 
-.tamanho {
-    max-width: 50px;
-}
 
 @media screen and (min-width: 768px)
 {
+    .form-inline {
+        display: inline-flexbox;
+        flex-wrap: nowrap;
+        margin-left: 1020px;
+        margin-top: 0px;
+    }
+
+    .header button:hover{
+        background-color: rgb(245, 106, 129);
+    }
+
+    .form-control {
+        background-color: rgb(250, 203, 211)
+    }
+
+    .form-control:hover {
+        background-color: white;
+    }
+
+    /*
     .footer {
         background-color: rgb(230, 169, 179);
         border-radius: 7px;
-        margin-top: 10px;        
-        min-height: 40px;
+        margin-top: 10px;       
         padding-left: 35px;
         padding-top: 1px;
         padding-bottom: 2px;
@@ -72,10 +92,12 @@ body {
     display: inline;
     font-size: 11px;
     }
+    */
 }
 
-@media screen and (max-width: 767px)
+@media screen and (min-width: 601px) and (max-width: 767px)
 {
+    /*
     .footer {
         background-color: rgb(230, 169, 179);
         border-radius: 7px;
@@ -98,5 +120,125 @@ body {
         display: inline;
         font-size: 9.5px;
         padding-left: 5px;
-        }
+    }
+    */
 }
+
+/* -------------- Menu Mobile-------------- */
+
+#menuToggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .header {
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        left: 0px;
+    }
+
+    .footer {
+        bottom: 0px;
+        width: 97.8%;
+        height: 7%;
+        left: 0px;
+        right: 0px;
+        font-size: small;
+    }
+
+    .header nav {
+        display: absolute;
+        width: 100%;
+        height: 100%;
+    }
+
+    .menu {
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 33px;
+        padding-left: 0px;
+        left: 0px;
+        width: 100%;
+        height: 0%;
+        background: rgba(0,0,0,0.7); 
+        overflow: hidden;
+        transition: height 0.8s;
+        -webkit-transition: height 0.8s;
+        -moz-transition: height 0.8s;
+        -o-transition: height 0.8s;
+    } 
+
+    .menu li {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+
+    .menu li .slash{display: none;}
+
+    .header a {
+        color: white;
+        padding-left: 10px;
+        padding-top: 12px;
+    }
+
+    .menu li a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: cornsilk;
+        font-size: x-large;
+    }
+
+    .menu-icon {
+        display: block;
+        color: cornsilk;
+        width: 90px;
+        height: 30px;
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        z-index: 999;
+    }
+
+    .menu-icon i {
+        font-size: 30px;
+        padding-top: -20px;
+    }
+
+    #menuToggle:checked ~ label i:nth-child(2){
+
+        display: block;
+    }
+
+    #menuToggle:checked ~ label i:first-child{
+
+        display: none;
+    }
+
+    #menuToggle:not(checked) ~ label i:first-child{
+
+        display: block;
+    }
+
+    #menuToggle:not(checked) ~ label i:nth-child(2){
+
+        display: none;
+    }
+
+    #menuToggle:checked ~ ul {
+        height: 100%;
+    }
+
+}
+
+/* -------------- Menu -------------- */
