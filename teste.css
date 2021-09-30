@@ -1,0 +1,47 @@
+body {
+    background-color: antiquewhite;
+}
+
+@media screen and (min-width: 768px)
+{
+
+ /* ------------- Header ------------- */
+ .header1 {
+     background-color: rgb(230, 169, 179);
+     border-radius: 5px;
+     margin-bottom: 5px;
+ }
+
+ .header2 {
+    display: none;
+}
+
+    /*------- Menu Mobile -------*/
+    #menuToggle {
+        display: none;
+    }
+    
+    .menu-icon {
+        display: none;
+    }
+    /*------- Menu Mobile -------*/
+
+/*------------- Header ------------- */
+}
+
+@media screen and (max-width: 767px)
+{
+    .navbar-bar {
+        display: none;
+    }
+
+    .header1 {
+        display: none;
+    }
+
+    .header2 { 
+    background-color: rgb(230, 169, 179);
+    border-radius: 5px;
+    margin-bottom: 5px;
+    }
+}
