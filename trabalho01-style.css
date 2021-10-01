@@ -247,12 +247,16 @@ main #perfil-texto p:first-of-type:first-letter {
 }
 
 .conteudo-videos h3 {
-    font-size: medium;
+    font-size: small;
     font-weight: normal;
 }
 
-#rec1 {
+#rec1, #rec2, #rec3 {
     margin-bottom: 20px;
+}
+
+.conteudo-videos h3, .conteudo-videos h2 {
+    margin-left: 15px;
 }
 
 
@@ -264,14 +268,16 @@ main #perfil-texto p:first-of-type:first-letter {
     background-color: rgb(230, 169, 179);
     border-radius: 5px;
     margin-top: 10px;
+    text-align: center;
+}
+
+.footer p {
+    margin-top: 20px;
+    margin-left: 10px;
 }
 
 .footer .img1 {
     width: 200px;
-}
-
-.footer .img2 {
-    width: 80px;
 }
 
 /*------------- Footer ------------- */
@@ -354,6 +360,10 @@ main #perfil-texto p:first-of-type:first-letter {
     .footer p {
         font-size: 12px;
     }
+
+    .footer .img2 {
+        width: 80px;
+    }
 }
 
 @media screen and (max-width: 599px) {
@@ -384,6 +394,11 @@ main #perfil-texto p:first-of-type:first-letter {
 
     .footer .img1 {
         display: none;
+    }
+
+    .footer .img2 {
+        width: 40px;
+        padding: 0px;
     }
 
     .footer p {
