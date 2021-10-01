@@ -88,7 +88,7 @@ main #perfil-texto p:first-of-type:first-letter {
     flex-wrap: nowrap;
 }
 
-.navbar-bar button {
+.navbar-bar {
     display: flex;
     flex-wrap: nowrap;
 }
@@ -282,7 +282,7 @@ main #perfil-texto p:first-of-type:first-letter {
         padding-top: 50px;
     }
 
-    .navbar-bar button {
+    .navbar-bar {
         display: flex;
         flex-wrap: nowrap;
     }
