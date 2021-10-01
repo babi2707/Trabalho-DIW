@@ -123,6 +123,10 @@ main #perfil-texto p:first-of-type:first-letter {
     width: 67%;
 }
 
+.experiencias .experiencia3 img {
+    width: 50%;
+}
+
 .experiencia1, .experiencia2, .experiencia3{
     margin-top: 20px;
     padding: 10px;
@@ -251,7 +255,26 @@ main #perfil-texto p:first-of-type:first-letter {
     margin-bottom: 20px;
 }
 
+
 /*------------- Main ------------- */
+
+/*------------- Footer ------------- */
+
+.footer {
+    background-color: rgb(230, 169, 179);
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.footer .img1 {
+    width: 200px;
+}
+
+.footer .img2 {
+    width: 80px;
+}
+
+/*------------- Footer ------------- */
 
 @media screen and (min-width: 992px) {
 
@@ -292,8 +315,17 @@ main #perfil-texto p:first-of-type:first-letter {
         display: flex;
         flex-wrap: nowrap;
     }
+
+    .footer .img2 {
+        display: none;
+    }
+
+    .footer p {
+        font-size: large;
+    }
     
 }
+
 
 @media screen and (min-width: 600px) and (max-width: 991px) {
 
@@ -313,6 +345,14 @@ main #perfil-texto p:first-of-type:first-letter {
         align-content: center;
         align-items: center;
         padding-top: 10px;
+    }
+
+    .footer .img1 {
+        display: none;
+    }
+
+    .footer p {
+        font-size: 12px;
     }
 }
 
@@ -340,5 +380,13 @@ main #perfil-texto p:first-of-type:first-letter {
         align-content: center;
         align-items: center;
         padding-top: 5px;
+    }
+
+    .footer .img1 {
+        display: none;
+    }
+
+    .footer p {
+        font-size: 9px;
     }
 }
