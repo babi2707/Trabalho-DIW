@@ -119,21 +119,6 @@ main #perfil-texto p:first-of-type:first-letter {
     margin-top: 20px;
 }
 
-.experiencias .experiencia2 img {
-    width: 67%;
-}
-
-.experiencias .experiencia3 img {
-    width: 50%;
-}
-
-.experiencia1, .experiencia2, .experiencia3{
-    margin-top: 20px;
-    padding: 10px;
-    background-color: rgb(252, 195, 204);
-    border-radius: 5px;
-}
-
 .experiencias-carregar {
     margin-top: 20px;
 }
@@ -322,6 +307,57 @@ main #perfil-texto p:first-of-type:first-letter {
         flex-wrap: nowrap;
     }
 
+    .titulo-drop .dropdown {
+        margin-left: 300px;
+    }
+
+    .projetos .projetos-imagens p {
+        padding-top: 10px;
+        padding-right: 0px;
+        padding-left: 60px;
+    }
+
+    .experiencia1, .experiencia2, .experiencia3{
+        margin-top: 10px;
+        background-color: rgb(252, 195, 204);
+        border-radius: 5px;
+    }
+
+    .experiencia1 img {
+        width: 100%;
+        margin: 20px;
+        border-radius: 5px;
+    }
+
+    .experiencias .experiencia2 img {
+        width: 100%;
+        margin: 20px;
+        border-radius: 5px;
+    }
+    
+    .experiencias .experiencia3 img {
+        width: 70%;
+        margin: 20px 20px 20px 80px;
+        border-radius: 5px;
+    }
+
+    .experiencia1 p, .experiencia2 p, .experiencia3 p {
+        margin-left: 10px;
+    }
+
+    .experiencia1 h2, .experiencia2 h2, .experiencia3 h2 {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    .experiencia1 h3, .experiencia2 h3, .experiencia3 h3 {
+        margin-left: 10px;
+    }
+
+    .experiencias-carregar {
+        margin-left: 600px;
+    }
+
     .footer .img2 {
         display: none;
     }
@@ -333,7 +369,7 @@ main #perfil-texto p:first-of-type:first-letter {
 }
 
 
-@media screen and (min-width: 600px) and (max-width: 991px) {
+@media screen and (min-width: 770px) and (max-width: 991px) {
 
     #ft1{
         width: 60%;
@@ -352,6 +388,155 @@ main #perfil-texto p:first-of-type:first-letter {
         align-items: center;
         padding-top: 10px;
     }
+
+    .titulo-drop .dropdown {
+        margin-left: 30px;
+    }
+
+    .projetos img {
+        padding-top: 10px;
+        padding-right: 0px;
+        padding-left: 30px;
+    }
+
+    .projetos .projetos-imagens p {
+        padding-top: 10px;
+        padding-right: 0px;
+        padding-left: 120px;
+    }
+
+    .experiencia1, .experiencia2, .experiencia3{
+        margin-top: 10px;
+        background-color: rgb(252, 195, 204);
+        border-radius: 5px;
+    }
+
+    .experiencias .experiencia1 img {
+        width: 130%;
+        margin: 50px 5px 0px 0px;
+    }
+
+    .experiencias .experiencia2 img {
+        width: 130%;
+        margin: 50px 5px 0px 0px;
+    }
+    
+    .experiencias .experiencia3 img {
+        width: 90%;
+        margin: 50px 5px 0px 25px;
+    }
+
+    .experiencia1 p, .experiencia2 p, .experiencia3 p {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h2, .experiencia2 h2, .experiencia3 h2 {
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h3, .experiencia2 h3, .experiencia3 h3 {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencias-carregar {
+        margin-left: 200px;
+    }
+
+
+    .footer .img1 {
+        display: none;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    .footer .img2 {
+        width: 80px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 769px) {
+
+    #ft1{
+        width: 60%;
+    }
+    
+    #ft2{
+        width: 60%;
+    }
+    
+    #ft3{
+        width: 60%;
+    }
+
+    .main #perfil-fotos {
+        align-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .titulo-drop .dropdown {
+        margin-left: 30px;
+    }
+
+    .projetos img {
+        padding-top: 10px;
+        padding-right: 0px;
+        padding-left: 30px;
+    }
+
+    .projetos .projetos-imagens p {
+        padding-top: 10px;
+        padding-right: 0px;
+        padding-left: 120px;
+    }
+
+    .experiencia1, .experiencia2, .experiencia3{
+        margin-top: 10px;
+        background-color: rgb(252, 195, 204);
+        border-radius: 5px;
+    }
+
+    .experiencias .experiencia1 img {
+        width: 80%;
+        margin: 50px 5px 0px 0px;
+    }
+
+    .experiencias .experiencia2 img {
+        width: 80%;
+        margin: 50px 5px 0px 0px;
+    }
+    
+    .experiencias .experiencia3 img {
+        width: 50%;
+        margin: 50px 5px 0px 95px;
+    }
+
+    .experiencia1 p, .experiencia2 p, .experiencia3 p {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h2, .experiencia2 h2, .experiencia3 h2 {
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h3, .experiencia2 h3, .experiencia3 h3 {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencias-carregar {
+        margin-left: 200px;
+    }
+
 
     .footer .img1 {
         display: none;
@@ -392,6 +577,63 @@ main #perfil-texto p:first-of-type:first-letter {
         padding-top: 5px;
     }
 
+    .titulo-drop .dropdown {
+        margin-left: 0px;
+    }
+
+    .projetos .projetos-imagens p {
+        padding-top: 10px;
+        padding-right: 0px;
+        padding-left: 100px;
+    }
+
+    .projetos img {
+        margin-top: 10px;
+        margin-right: 40px;
+        margin-left: 0px;
+    }
+
+    .experiencia1, .experiencia2, .experiencia3{
+        margin-top: 10px;
+        background-color: rgb(252, 195, 204);
+        border-radius: 5px;
+    }
+
+    .experiencias .experiencia1 img {
+        width: 40%;
+        margin: 20px 5px 0px 115px;
+    }
+
+    .experiencias .experiencia2 img {
+        width: 40%;
+        margin: 20px 5px 0px 115px;
+    }
+    
+    .experiencias .experiencia3 img {
+        width: 25%;
+        margin: 20px 5px 0px 145px;
+    }
+
+    .experiencia1 p, .experiencia2 p, .experiencia3 p {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h2, .experiencia2 h2, .experiencia3 h2 {
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h3, .experiencia2 h3, .experiencia3 h3 {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencias-carregar {
+        margin-left: 0px;
+    }
+
     .footer .img1 {
         display: none;
     }
@@ -403,5 +645,9 @@ main #perfil-texto p:first-of-type:first-letter {
 
     .footer p {
         font-size: 9px;
+    }
+
+    .footer {
+        margin: 20px 0px 0px 0px;
     }
 }
