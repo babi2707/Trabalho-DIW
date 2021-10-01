@@ -2,6 +2,10 @@ body {
     background-color: antiquewhite;
 }
 
+body p {
+    text-align: justify;
+}
+
 img {
     border-radius: 4px;
 }
@@ -175,6 +179,7 @@ main #perfil-texto p:first-of-type:first-letter {
     margin-top: 0px;
     background-color: rgb(252, 195, 204);
     border-radius: 5px;
+    padding-left: 15px;
 }
 
 .repositorios-conteudo #rep1 {
@@ -220,6 +225,14 @@ main #perfil-texto p:first-of-type:first-letter {
     color:rgb(103, 51, 172);
 }
 
+.conteudo-carregar {
+    margin-top: 20px;
+}
+
+.conteudo {
+    margin-top: 20px;
+}
+
 .conteudo iframe {
     max-width: 100%;
 }
@@ -232,6 +245,10 @@ main #perfil-texto p:first-of-type:first-letter {
 .conteudo-videos h3 {
     font-size: medium;
     font-weight: normal;
+}
+
+#rec1 {
+    margin-bottom: 20px;
 }
 
 /*------------- Main ------------- */
