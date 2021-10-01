@@ -247,26 +247,6 @@ main #perfil-texto p:first-of-type:first-letter {
 
 /*------------- Main ------------- */
 
-/*------------- Footer ------------- */
-
-.footer {
-    background-color: rgb(230, 169, 179);
-    border-radius: 5px;
-    margin-top: 10px;
-    text-align: center;
-}
-
-.footer p {
-    margin-top: 20px;
-    margin-left: 10px;
-}
-
-.footer .img1 {
-    width: 200px;
-}
-
-/*------------- Footer ------------- */
-
 @media screen and (min-width: 992px) {
 
     .header {
@@ -358,14 +338,18 @@ main #perfil-texto p:first-of-type:first-letter {
         margin-left: 600px;
     }
 
-    .footer .img2 {
-        display: none;
+    .conteudo-carregar {
+        margin-left: 600px;
+        margin-bottom: 20px;
     }
 
-    .footer p {
-        font-size: large;
+    .footer {
+        background-color: rgb(230, 169, 179);
     }
-    
+
+    .footer img {
+        max-width: 100%;
+    }
 }
 
 
@@ -446,18 +430,19 @@ main #perfil-texto p:first-of-type:first-letter {
         margin-left: 200px;
     }
 
-
-    .footer .img1 {
-        display: none;
+    .conteudo-carregar {
+        margin-left: 200px;
+        margin-bottom: 20px;
     }
 
-    .footer p {
-        font-size: 12px;
+    .footer {
+        background-color: rgb(230, 169, 179);
     }
 
-    .footer .img2 {
-        width: 80px;
+    .footer img {
+        max-width: 100%;
     }
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 769px) {
@@ -537,17 +522,17 @@ main #perfil-texto p:first-of-type:first-letter {
         margin-left: 200px;
     }
 
-
-    .footer .img1 {
-        display: none;
+    .conteudo-carregar {
+        margin-left: 200px;
+        margin-bottom: 20px;
     }
 
-    .footer p {
-        font-size: 12px;
+    .footer {
+        background-color: rgb(230, 169, 179);
     }
 
-    .footer .img2 {
-        width: 80px;
+    .footer img {
+        max-width: 100%;
     }
 }
 
@@ -557,6 +542,7 @@ main #perfil-texto p:first-of-type:first-letter {
         position: fixed;
         display: flex;
         flex-wrap: wrap;
+        max-width: 100%;
     }    
 
     #ft1{
@@ -634,20 +620,16 @@ main #perfil-texto p:first-of-type:first-letter {
         margin-left: 0px;
     }
 
-    .footer .img1 {
-        display: none;
-    }
-
-    .footer .img2 {
-        width: 40px;
-        padding: 0px;
-    }
-
-    .footer p {
-        font-size: 9px;
+    .conteudo-carregar {
+        margin-left: 0px;
+        margin-bottom: 20px;
     }
 
     .footer {
-        margin: 20px 0px 0px 0px;
+        background-color: rgb(230, 169, 179);
+    }
+
+    .footer img {
+        max-width: 100%;
     }
 }
