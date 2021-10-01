@@ -2,6 +2,10 @@ body {
     background-color: antiquewhite;
 }
 
+img {
+    border-radius: 4px;
+}
+
 .header {
     background-color: rgb(230, 169, 179);
     border-radius: 5px;
@@ -139,6 +143,46 @@ main #perfil-texto p:first-of-type:first-letter {
 .experiencias h3 {
     font-weight:normal;
     font-size: large;
+}
+
+.experiencias-carregar {
+    margin-top: 20px;
+}
+
+.repositorios h2 {
+    font-weight: 700;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.repositorios p {
+    font-size: medium;
+}
+
+.repositorios h3 {
+    font-weight: 500;
+    font-size: large;
+}
+
+.repositorios {
+    margin-top: 20px;
+    background-color: rgb(252, 195, 204);
+    border-radius: 5px;
+}
+
+.repositorios-conteudo #rep1 {
+    margin-top: 5px;
+    color: rgb(102, 29, 109);
+}
+
+.repositorios-conteudo #rep2 {
+    margin-top: 5px;
+    color: rgb(15, 80, 40);
+}
+
+.repositorios-conteudo #rep3 {
+    margin-top: 5px;
+    color: rgb(64, 29, 109);
 }
 
 /*------------- Main ------------- */
