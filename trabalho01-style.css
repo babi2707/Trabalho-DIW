@@ -1,5 +1,7 @@
 body {
     background-color: antiquewhite;
+
+    /*background-color: rgb(230, 169, 179);*/
 }
 
 body p {
@@ -8,35 +10,6 @@ body p {
 
 img {
     border-radius: 4px;
-}
-
-.header {
-    background-color: rgb(230, 169, 179);
-    border-radius: 5px;
-    margin-bottom: 5px;
-}
-
-.header ul li {
-    list-style: none;
-    margin-left: 15px;
-    margin-top: 12px;
-    color: rgb(87, 0, 82);
-    font-weight: 500;
-}
-
-.header li a {text-decoration: none;
-    color: rgb(87, 0, 82);
-    font-weight: 500;
-}
-
-.header i {text-decoration: none;
-    color: rgb(87, 0, 82);
-    font-weight: 500;
-}
-
-.header li a:hover {text-decoration: none;
-    color: rgb(209, 101, 204);
-    font-weight: 500;
 }
 
 main h1 {
@@ -81,16 +54,6 @@ main #perfil-texto p:first-of-type:first-letter {
     font-size: 25px;
     width: 30px;
     color: rgb(150, 0, 0);
-}
-
-.navbar-bar {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-.navbar-bar {
-    display: flex;
-    flex-wrap: nowrap;
 }
 
 /*------------- Main ------------- */
@@ -249,21 +212,6 @@ main #perfil-texto p:first-of-type:first-letter {
 
 @media screen and (min-width: 992px) {
 
-    .header {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
-    .header li {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
-    .header li a {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
     #ft1{
         width: 80%;
     }
@@ -295,6 +243,10 @@ main #perfil-texto p:first-of-type:first-letter {
         padding-top: 10px;
         padding-right: 0px;
         padding-left: 60px;
+    }
+
+    .projetos-carregar {
+        margin-left: 600px;
     }
 
     .experiencia1, .experiencia2, .experiencia3{
@@ -338,6 +290,10 @@ main #perfil-texto p:first-of-type:first-letter {
         margin-left: 600px;
     }
 
+    .repositorios-carregar {
+        margin-left: 600px;
+    }
+
     .conteudo-carregar {
         margin-left: 600px;
         margin-bottom: 20px;
@@ -347,8 +303,15 @@ main #perfil-texto p:first-of-type:first-letter {
         background-color: rgb(230, 169, 179);
     }
 
+    .footer p {
+        padding-left: 90px;
+        padding-top: 20px;
+        font-size: larger;
+    }
+
     .footer img {
-        max-width: 100%;
+        width: 180%;
+        margin-left: 230px;
     }
 }
 
@@ -387,6 +350,10 @@ main #perfil-texto p:first-of-type:first-letter {
         padding-top: 10px;
         padding-right: 0px;
         padding-left: 120px;
+    }
+
+    .projetos-carregar {
+        margin-left: 200px;
     }
 
     .experiencia1, .experiencia2, .experiencia3{
@@ -430,6 +397,10 @@ main #perfil-texto p:first-of-type:first-letter {
         margin-left: 200px;
     }
 
+    .repositorios-carregar {
+        margin-left: 200px;
+    }
+
     .conteudo-carregar {
         margin-left: 200px;
         margin-bottom: 20px;
@@ -439,8 +410,15 @@ main #perfil-texto p:first-of-type:first-letter {
         background-color: rgb(230, 169, 179);
     }
 
+    .footer p {
+        padding-left: 80px;
+        padding-top: 20px;
+        font-size: large;
+    }
+
     .footer img {
-        max-width: 100%;
+        width: 150%;
+        margin-left: 200px;
     }
 
 }
@@ -470,15 +448,19 @@ main #perfil-texto p:first-of-type:first-letter {
     }
 
     .projetos img {
+        
         padding-top: 10px;
-        padding-right: 0px;
-        padding-left: 30px;
+        padding-right: 40px;
     }
 
     .projetos .projetos-imagens p {
         padding-top: 10px;
         padding-right: 0px;
-        padding-left: 120px;
+        padding-left: 180px;
+    }
+
+    .projetos-carregar {
+        margin-left: 200px;
     }
 
     .experiencia1, .experiencia2, .experiencia3{
@@ -489,17 +471,17 @@ main #perfil-texto p:first-of-type:first-letter {
 
     .experiencias .experiencia1 img {
         width: 80%;
-        margin: 50px 5px 0px 0px;
+        margin: 10px 5px 0px 65px;
     }
 
     .experiencias .experiencia2 img {
         width: 80%;
-        margin: 50px 5px 0px 0px;
+        margin: 10px 5px 0px 65px;
     }
     
     .experiencias .experiencia3 img {
         width: 50%;
-        margin: 50px 5px 0px 95px;
+        margin: 10px 5px 0px 135px;
     }
 
     .experiencia1 p, .experiencia2 p, .experiencia3 p {
@@ -522,6 +504,10 @@ main #perfil-texto p:first-of-type:first-letter {
         margin-left: 200px;
     }
 
+    .repositorios-carregar {
+        margin-left: 200px;
+    }
+
     .conteudo-carregar {
         margin-left: 200px;
         margin-bottom: 20px;
@@ -531,19 +517,19 @@ main #perfil-texto p:first-of-type:first-letter {
         background-color: rgb(230, 169, 179);
     }
 
+    .footer p {
+        padding-left: 40px;
+        padding-top: 20px;
+        font-size: medium;
+    }
+
     .footer img {
-        max-width: 100%;
+        width: 50%;
+        margin-left: 170px;
     }
 }
 
 @media screen and (max-width: 599px) {
-
-    .header {
-        position: fixed;
-        display: flex;
-        flex-wrap: wrap;
-        max-width: 100%;
-    }    
 
     #ft1{
         width: 45%;
@@ -563,8 +549,22 @@ main #perfil-texto p:first-of-type:first-letter {
         padding-top: 5px;
     }
 
+    #perfil-texto p {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    #perfil-texto .social-icons {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
     .titulo-drop .dropdown {
         margin-left: 0px;
+    }
+
+    .projetos .titulo-drop h1 {
+        margin-top: 35px;
     }
 
     .projetos .projetos-imagens p {
@@ -574,34 +574,48 @@ main #perfil-texto p:first-of-type:first-letter {
     }
 
     .projetos img {
+        width: 90%;
         margin-top: 10px;
-        margin-right: 40px;
+        margin-right: 5px;
+        margin-left: 15px;
+    }
+
+    .projetos-carregar {
         margin-left: 0px;
+    }
+
+    .experiencias .experiencias-titulo h1 {
+        margin-top: 35px;
     }
 
     .experiencia1, .experiencia2, .experiencia3{
         margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 5px;
         background-color: rgb(252, 195, 204);
         border-radius: 5px;
     }
 
     .experiencias .experiencia1 img {
         width: 40%;
-        margin: 20px 5px 0px 115px;
+        margin-left: 50px;
+        margin-top: 20px;
     }
 
     .experiencias .experiencia2 img {
         width: 40%;
-        margin: 20px 5px 0px 115px;
+        margin-left: 50px;
+        margin-top: 20px;
     }
     
     .experiencias .experiencia3 img {
         width: 25%;
-        margin: 20px 5px 0px 145px;
+        margin: 20px 5px 0px 65px;
+        border-radius: 0%;
     }
 
     .experiencia1 p, .experiencia2 p, .experiencia3 p {
-        margin-left: 30px;
+        margin-left: 5px;
         margin-top: 10px;
     }
 
@@ -612,16 +626,32 @@ main #perfil-texto p:first-of-type:first-letter {
     }
 
     .experiencia1 h3, .experiencia2 h3, .experiencia3 h3 {
-        margin-left: 30px;
+        margin-left: 5px;
         margin-top: 10px;
     }
 
     .experiencias-carregar {
         margin-left: 0px;
+        margin-bottom: 85px;
+    }
+
+    .repositorios-titulo h1 {
+        margin-top: 5px;
+        font-size: 35px;
+    }
+
+    .repositorios-carregar {
+        margin-left: 0px;
+    }
+
+    .conteudo-titulo h1 {
+        margin-top: 55px;
+        font-size: large;
     }
 
     .conteudo-carregar {
-        margin-left: 0px;
+        font-size: 1px;
+        margin-right: 100px;
         margin-bottom: 20px;
     }
 
@@ -629,7 +659,15 @@ main #perfil-texto p:first-of-type:first-letter {
         background-color: rgb(230, 169, 179);
     }
 
+    .footer p {
+        padding-left: 40px;
+        padding-right: 30px;
+        padding-top: 20px;
+        font-size: small;
+    }
+
     .footer img {
-        max-width: 100%;
+        width: 60%;
+        margin-left: 65px;
     }
 }
