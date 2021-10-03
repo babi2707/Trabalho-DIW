@@ -107,6 +107,16 @@ main #perfil-texto p:first-of-type {
     margin-top: 20px;
 }
 
+.experiencias p a {
+    text-decoration: none;
+    color: black;
+}
+
+.experiencias p a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
 .experiencias-carregar {
     margin-top: 20px;
 }
