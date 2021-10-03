@@ -8,6 +8,30 @@ body p {
     text-align: justify;
 }
 
+.header {
+    background-color: rgb(230, 169, 179);
+}
+
+.header li a {
+    text-decoration: none;
+    color: rgb(87, 0, 82);
+    font-weight: 500;
+}
+
+.header li a:hover {
+    text-decoration: none;
+    color: rgb(146, 50, 141);
+    font-weight: 500;
+}
+
+.header .btn-outline-light {
+    background-color: white;
+}
+
+.header .btn-outline-light:hover {
+    background-color: rgb(230, 212, 215);
+}
+
 img {
     border-radius: 4px;
 }
@@ -247,6 +271,11 @@ main #perfil-texto p:first-of-type {
 
 @media screen and (min-width: 992px) {
 
+    .header ul li {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
     #ft1{
         width: 80%;
     }
@@ -352,6 +381,11 @@ main #perfil-texto p:first-of-type {
 
 
 @media screen and (min-width: 770px) and (max-width: 991px) {
+
+    .header ul li {
+        display: flex;
+        flex-wrap: nowrap;
+    }
 
     #ft1{
         width: 60%;
@@ -460,6 +494,11 @@ main #perfil-texto p:first-of-type {
 
 @media screen and (min-width: 600px) and (max-width: 769px) {
 
+    .header ul li {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
     #ft1{
         width: 60%;
     }
@@ -565,6 +604,11 @@ main #perfil-texto p:first-of-type {
 }
 
 @media screen and (max-width: 599px) {
+
+    .header ul li {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
     #ft1{
         width: 45%;

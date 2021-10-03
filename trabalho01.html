@@ -20,14 +20,11 @@
 <body>
 
     <!------------------------------------ header ------------------------------------>
-
-    <!-- 
-
     <header class="container-fluid header">
-        <nav class="row">
-            <nav class="navbar navbar-expand-lg">
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <div class="col-xl-7 col-lg-7 col-md-12 col-sm-12 col-xs-12">
+        <div class="row">
+            <div class="col-8 col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <nav class="navbar navbar-expand justify-content-between">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
                                 <a class="nav-link" href="#menu-perfil">Perfil</a>
@@ -38,7 +35,7 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#menu-experiencias">Experiências</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item" id="menurep">
                                 <a class="nav-link" href="#menu-repositorios">Repositórios Github</a>
                             </li>
                             <li class="nav-item">
@@ -46,24 +43,17 @@
                             </li>
                         </ul>
                     </div>
-
-                    <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12">
-                        <form class="form-inline">
-
-                            <input class="form-control" type="search" placeholder="" aria-label="Search">
-                        </form>
-                    </div>
-                    <div class="col-xl-1 col-lg-1 col-md-12 col-sm-12 col-xs-12">
-                        <button class="btn btn-outline-danger" type="submit">Search</button>
-                    </div>
-
-                </div>
-
-            </nav>
-        </nav>
+            </div>
+            <div class="col-4 col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <form id="barra" class="form-inline justify-content-xl-end justify-content-lg-end">
+                    <input class="form-control btn-outline-light mr-sm-2" type="search" placeholder=""
+                        aria-label="Search">
+                    <button class="btn btn-outline-danger my-2" type="submit">Search</button>
+                </form>
+                </nav>
+            </div>
+        </div>
     </header>
-    -->
-
 
     <!------------------------------------ main ------------------------------------>
     <main class="container main">
@@ -267,7 +257,8 @@
                             <a target="_blank" href="https://github.com/babi2707/Connect-4-Game/blob/main/README.md"><i
                                     class="fas fa-folder fa-2x"></i></a>
                             <h2>Repositório CONNECT 4 </h2>
-                            <p>Jogo Connect 4 (em inglês) criado em 2020 por duas estudantes (Bárbara e Mai) da escola Glebe
+                            <p>Jogo Connect 4 (em inglês) criado em 2020 por duas estudantes (Bárbara e Mai) da escola
+                                Glebe
                                 Colligiate Institute,
                                 para a matéria de Computer Science (Ciência da Computação) do 2° Semestre.</p>
                             <h3>Atualizado em: 03/10/2021</h3>
@@ -277,7 +268,8 @@
                             <a target="_blank" href="https://github.com/babi2707/HANGMAN-"><i
                                     class="fas fa-folder fa-2x"></i></a>
                             <h2>Repositório HANGMAN </h2>
-                            <p>Jogo da Forca (em inglês) criado em 2020, para a matéria de Computer Science (Ciência da Computação)
+                            <p>Jogo da Forca (em inglês) criado em 2020, para a matéria de Computer Science (Ciência da
+                                Computação)
                                 do 2° Semestre da escola Glebe Colligiate Institute.</p>
                             <h3>Atualizado em: 03/10/2021</h3>
                         </div>
