@@ -24,9 +24,6 @@ main #perfil-texto p:first-of-type {
     text-indent: 25px;
 }
 
-main #perfil-texto p:first-of-type:first-letter {
-    font-size: x-large;
-}
 
 .perfil .redes {
     font-weight: 500;
@@ -61,8 +58,36 @@ main #perfil-texto p:first-of-type:first-letter {
     padding: 10px;
 }
 
-.projetos-imagens img {
+.projetos-imagens .scratch img {
     width: 110%;
+}
+
+.projetos-imagens .scratch img:hover {
+    width: 120%;
+}
+
+.projetos-imagens .arduino img {
+    margin-left: 40px;
+    width: 205px;
+}
+
+.projetos-imagens .arduino img:hover {
+    margin-left: 40px;
+    width: 225px;
+}
+
+.projetos-imagens .arduino p {
+    margin-left: 70px;
+}
+
+.projetos-imagens .drone img {
+    margin-left: 0px;
+    width: 220px;
+}
+
+.projetos-imagens .drone img:hover {
+    margin-left: 0px;
+    width: 240px;
 }
 
 .projetos-imagens p {
