@@ -32,6 +32,12 @@ body p {
     background-color: rgb(230, 212, 215);
 }
 
+#barra {
+    margin-right: 0px;
+    padding-right: 0px;
+    border-right: 0px;
+}
+
 img {
     border-radius: 4px;
 }
@@ -255,6 +261,18 @@ main #perfil-texto p:first-of-type {
 
 @media screen and (min-width: 992px) {
 
+    body {
+        margin-right: 0px;
+    }
+
+    .header {
+        max-width: 100%;
+    }
+
+    .footer {
+        max-width: 100%;
+    }
+
     #ft1{
         width: 80%;
     }
@@ -382,10 +400,30 @@ main #perfil-texto p:first-of-type {
         margin-left: 600px;
         margin-bottom: 20px;
     }
+
+    .footer {
+        background-color: rgb(230, 169, 179);
+    }
+
+    .footer img {
+        width: 30%;
+    }
 }
 
 
 @media screen and (min-width: 770px) and (max-width: 991px) {
+
+    body {
+        margin-right: 0px;
+    }
+
+    .header {
+        max-width: 100%;
+    }
+
+    .footer {
+        max-width: 100%;
+    }
 
     #ft1{
         width: 60%;
@@ -524,9 +562,29 @@ main #perfil-texto p:first-of-type {
         margin-left: 200px;
         margin-bottom: 20px;
     }
+
+    .footer {
+        background-color: rgb(230, 169, 179);
+    }
+
+    .footer img {
+        width: 25%;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 769px) {
+
+    body {
+        margin-right: 0px;
+    }
+
+    .header {
+        max-width: 100%;
+    }
+
+    .footer {
+        max-width: 100%;
+    }
 
     #ft1{
         width: 60%;
@@ -663,9 +721,29 @@ main #perfil-texto p:first-of-type {
         margin-left: 200px;
         margin-bottom: 20px;
     }
+
+    .footer {
+        background-color: rgb(230, 169, 179);
+    }
+
+    .footer img {
+        width: 20%;
+    }
 }
 
 @media screen and (min-width: 300px) and (max-width: 599px) {
+
+    body {
+        margin-right: 0px;
+    }
+
+    .header {
+        max-width: 100%;
+    }
+
+    .footer {
+        max-width: 100%;
+    }
 
     .header .navbar ul {
         display: flex;
@@ -853,9 +931,29 @@ main #perfil-texto p:first-of-type {
         margin-right: 300px;
         margin-bottom: 20px;
     }
+
+    .footer {
+        background-color: rgb(230, 169, 179);
+    }
+
+    .footer img {
+        width: 15%;
+    }
 }
 
 @media screen and (max-width: 299px) {
+
+    body {
+        margin-right: 0px;
+    }
+
+    .header {
+        max-width: 100%;
+    }
+
+    .footer {
+        max-width: 100%;
+    }
 
     .header {
         padding-left: 70px;
@@ -1046,5 +1144,13 @@ main #perfil-texto p:first-of-type {
         font-size: 1px;
         margin-right: 100px;
         margin-bottom: 20px;
+    }
+
+    .footer {
+        background-color: rgb(230, 169, 179);
+    }
+
+    .footer img {
+        width: 10%;
     }
 }
