@@ -381,21 +381,6 @@ main #perfil-texto p:first-of-type {
         margin-left: 600px;
         margin-bottom: 20px;
     }
-
-    .footer {
-        background-color: rgb(230, 169, 179);
-    }
-
-    .footer p {
-        padding-left: 90px;
-        padding-top: 20px;
-        font-size: larger;
-    }
-
-    .footer img {
-        width: 180%;
-        margin-left: 230px;
-    }
 }
 
 
@@ -538,12 +523,6 @@ main #perfil-texto p:first-of-type {
         margin-left: 200px;
         margin-bottom: 20px;
     }
-
-    .footer img {
-        width: 150%;
-        justify-items: center;
-    }
-
 }
 
 @media screen and (min-width: 600px) and (max-width: 769px) {
@@ -570,16 +549,64 @@ main #perfil-texto p:first-of-type {
         margin-left: 30px;
     }
 
-    .projetos img {
-        
-        padding-top: 10px;
-        padding-right: 40px;
+    .projetos-imagens .scratch img {
+        margin-left: 40px;
+        width: 75%;
+    }
+    
+    .projetos-imagens .scratch img:hover {
+        margin-left: 40px;
+        width: 95%;
     }
 
-    .projetos .projetos-imagens p {
-        padding-top: 10px;
-        padding-right: 0px;
-        padding-left: 180px;
+    .projetos-imagens .scratch-text {
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+    
+    .projetos-imagens .arduino img {
+        margin-left: 80px;
+        width: 225px;
+    }
+    
+    .projetos-imagens .arduino img:hover {
+        margin-left: 80px;
+        width: 245px;
+    }
+
+    .projetos-imagens .arduino-text {
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+    
+    .projetos-imagens .drone img {
+        margin-left: 75px;
+        width: 240px;
+    }
+    
+    .projetos-imagens .drone img:hover {
+        margin-left: 75px;
+        width: 260px;
+    }
+
+    .projetos-imagens .drone-text {
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+
+    .projetos-imagens .resenha img {
+        margin-left: 75px;
+        width: 240px;
+    }
+    
+    .projetos-imagens .resenha img:hover {
+        margin-left: 75px;
+        width: 260px;
+    }
+
+    .projetos-imagens .resenha-text {
+        margin-top: 10px;
+        margin-left: 135px;
     }
 
     .projetos-carregar {
@@ -635,28 +662,9 @@ main #perfil-texto p:first-of-type {
         margin-left: 200px;
         margin-bottom: 20px;
     }
-
-    .footer {
-        background-color: rgb(230, 169, 179);
-    }
-
-    .footer p {
-        padding-left: 40px;
-        padding-top: 20px;
-        font-size: medium;
-    }
-
-    .footer img {
-        width: 50%;
-        margin-left: 170px;
-    }
 }
 
 @media screen and (min-width: 300px) and (max-width: 599px) {
-
-    .header {
-        padding-left: 70px;
-    }
 
     .header .navbar ul {
         display: flex;
@@ -709,10 +717,65 @@ main #perfil-texto p:first-of-type {
     .projetos .titulo-drop h1 {
         margin-top: 35px;
     }
+    
+    .projetos-imagens .scratch img {
+        margin-left: 20px;
+        width: 80%;
+    }
+    
+    .projetos-imagens .scratch img:hover {
+        margin-left: 20px;
+        width: 100%;
+    }
 
-    .projetos .projetos-imagens .scratch img {
-        width: 70%;
-        margin-left: 75px;
+    .projetos-imagens .scratch-text {
+        margin-top: 10px;
+        margin-left: 115px;
+    }
+    
+    .projetos-imagens .arduino img {
+        margin-left: 30px;
+        width: 205px;
+    }
+    
+    .projetos-imagens .arduino img:hover {
+        margin-left: 30px;
+        width: 225px;
+    }
+
+    .projetos-imagens .arduino-text {
+        margin-top: 10px;
+        margin-left: 115px;
+    }
+    
+    .projetos-imagens .drone img {
+        margin-left: 25px;
+        width: 220px;
+    }
+    
+    .projetos-imagens .drone img:hover {
+        margin-left: 25px;
+        width: 240px;
+    }
+
+    .projetos-imagens .drone-text {
+        margin-top: 10px;
+        margin-left: 115px;
+    }
+
+    .projetos-imagens .resenha img {
+        margin-left: 25px;
+        width: 220px;
+    }
+    
+    .projetos-imagens .resenha img:hover {
+        margin-left: 25px;
+        width: 240px;
+    }
+
+    .projetos-imagens .resenha-text {
+        margin-top: 10px;
+        margin-left: 115px;
     }
 
     .projetos-carregar {
@@ -785,25 +848,9 @@ main #perfil-texto p:first-of-type {
     }
 
     .conteudo-carregar button {
-        font-size: 0.5px;
+        font-size: 15px;
         margin-right: 300px;
         margin-bottom: 20px;
-    }
-
-    .footer {
-        background-color: rgb(230, 169, 179);
-    }
-
-    .footer p {
-        padding-left: 40px;
-        padding-right: 30px;
-        padding-top: 20px;
-        font-size: small;
-    }
-
-    .footer img {
-        width: 60%;
-        margin-left: 65px;
     }
 }
 
@@ -865,9 +912,64 @@ main #perfil-texto p:first-of-type {
         margin-top: 35px;
     }
 
-    .projetos .projetos-imagens .scratch img {
-        width: 70%;
+    .projetos-imagens .scratch img {
+        margin-left: 60px;
+        width: 90%;
+    }
+    
+    .projetos-imagens .scratch img:hover {
+        margin-left: 60px;
+        width: 90%;
+    }
+
+    .projetos-imagens .scratch-text {
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+    
+    .projetos-imagens .arduino img {
+        margin-left: 80px;
+        width: 225px;
+    }
+    
+    .projetos-imagens .arduino img:hover {
+        margin-left: 80px;
+        width: 245px;
+    }
+
+    .projetos-imagens .arduino-text {
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+    
+    .projetos-imagens .drone img {
         margin-left: 75px;
+        width: 240px;
+    }
+    
+    .projetos-imagens .drone img:hover {
+        margin-left: 75px;
+        width: 260px;
+    }
+
+    .projetos-imagens .drone-text {
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+
+    .projetos-imagens .resenha img {
+        margin-left: 75px;
+        width: 240px;
+    }
+    
+    .projetos-imagens .resenha img:hover {
+        margin-left: 75px;
+        width: 260px;
+    }
+
+    .projetos-imagens .resenha-text {
+        margin-top: 10px;
+        margin-left: 135px;
     }
 
     .projetos-carregar {
@@ -943,21 +1045,5 @@ main #perfil-texto p:first-of-type {
         font-size: 1px;
         margin-right: 100px;
         margin-bottom: 20px;
-    }
-
-    .footer {
-        background-color: rgb(230, 169, 179);
-    }
-
-    .footer p {
-        padding-left: 40px;
-        padding-right: 30px;
-        padding-top: 20px;
-        font-size: small;
-    }
-
-    .footer img {
-        width: 60%;
-        margin-left: 65px;
     }
 }
