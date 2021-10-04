@@ -1,0 +1,1050 @@
+body {
+    background-color: antiquewhite;
+
+    /*background-color: rgb(230, 169, 179);*/
+}
+
+body p {
+    text-align: justify;
+}
+
+.header {
+    background-color: rgb(230, 169, 179);
+}
+
+.header li a {
+    text-decoration: none;
+    color: rgb(87, 0, 82);
+    font-weight: 500;
+}
+
+.header li a:hover {
+    text-decoration: none;
+    color: rgb(146, 50, 141);
+    font-weight: 500;
+}
+
+.header .btn-outline-light {
+    background-color: white;
+}
+
+.header .btn-outline-light:hover {
+    background-color: rgb(230, 212, 215);
+}
+
+img {
+    border-radius: 4px;
+}
+
+main h1 {
+    color: rgb(87, 0, 82);
+    font-weight: 500;
+    text-align: center;
+}
+
+main #perfil-texto p:first-of-type {
+    padding-top: 15px;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+
+.perfil .redes {
+    font-weight: 500;
+}
+
+.fab {
+    font-size: 25px;
+    width: 30px;
+    color: black;
+}
+
+.fa-instagram:hover  {
+    font-size: 25px;
+    width: 30px;
+    color: purple;
+}
+
+.fa-facebook-square:hover {
+    font-size: 25px;
+    width: 30px;
+    color: blue;
+}
+
+.fa-tiktok:hover {
+    font-size: 25px;
+    width: 30px;
+    color: rgb(150, 0, 0);
+}
+
+/*------------- Main ------------- */
+
+.perfil {
+    margin-top: 50px;
+}
+
+#perfil-texto {
+    padding: 10px;
+}
+
+.projetos {
+    padding-top: 100px;
+}
+
+.projetos-imagens p {
+    font-size: medium;
+    font-weight: 650;
+}
+
+.projetos {
+    margin-top: 20px;
+}
+
+.projetos .dropdown {
+    margin-bottom: 20px;
+}
+
+.experiencias {
+    margin-top: 100px;
+}
+
+.experiencias p a {
+    text-decoration: none;
+    color: black;
+}
+
+.experiencias p a:hover {
+    text-decoration: none;
+    color: gray;
+}
+
+.experiencias-carregar {
+    margin-top: 20px;
+}
+
+.experiencias h2 {
+    font-weight: 500;
+    font-size: larger;
+    margin-top: 5px;
+}
+
+.experiencias p {
+    font-size: medium;
+}
+
+.experiencias h3 {
+    font-weight:normal;
+    font-size: large;
+}
+
+.experiencias-carregar {
+    margin-top: 20px;
+}
+
+.repositorios {
+    margin-top: 100px;
+}
+
+.repositorios h2 {
+    font-weight: 700;
+    font-size: larger;
+    margin-top: 10px;
+}
+
+.repositorios p {
+    font-size: medium;
+}
+
+.repositorios h3 {
+    font-weight: 500;
+    font-size: large;
+}
+
+.repositorios-titulo {
+    margin-top: 20px;
+    background-color: rgb(252, 195, 204);
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+.repositorios-conteudo {
+    margin-top: 0px;
+    background-color: rgb(252, 195, 204);
+    border-radius: 5px;
+    padding-left: 15px;
+}
+
+.repositorios-conteudo #rep1 {
+    margin-top: 5px;
+    color: rgb(102, 29, 109);
+}
+
+.repositorios-conteudo #rep2 {
+    margin-top: 5px;
+    color: rgb(15, 80, 40);
+}
+
+.repositorios-conteudo #rep3 {
+    margin-top: 5px;
+    color: rgb(64, 29, 109);
+}
+
+.repositorios-carregar {
+    margin-top: 20px;
+}
+
+.repositorios-conteudo #rep1 a {
+    color:rgb(64, 29, 109);
+}
+
+.repositorios-conteudo #rep2 a {
+    color:rgb(15, 80, 40);
+}
+
+.repositorios-conteudo #rep3 a {
+    color:rgb(64, 29, 109);
+}
+
+.repositorios-conteudo #rep1 a:hover {
+    color:rgb(108, 60, 172);
+}
+
+.repositorios-conteudo #rep2 a:hover {
+    color:rgb(30, 151, 77);
+}
+
+.repositorios-conteudo #rep3 a:hover {
+    color:rgb(103, 51, 172);
+}
+
+.conteudo {
+    margin-top: 100px;
+}
+
+.conteudo-carregar {
+    margin-top: 20px;
+}
+
+.conteudo iframe {
+    border-radius: 7px;
+    max-width: 100%;
+    padding-top: 20px;
+}
+
+.conteudo-videos h2 {
+    font-size: large;
+    font-weight: normal;
+}
+
+.conteudo-videos h3 {
+    font-size: small;
+    font-weight: normal;
+}
+
+#rec1, #rec2, #rec3 {
+    margin-bottom: 20px;
+}
+
+.conteudo-videos h3, .conteudo-videos h2 {
+    margin-left: 15px;
+}
+
+
+
+/*------------- Main ------------- */
+
+@media screen and (min-width: 992px) {
+
+    #ft1{
+        width: 80%;
+    }
+    
+    #ft2{
+        width: 80%;
+    }
+    
+    #ft3{
+        width: 80%;
+    }
+
+    .main #perfil-fotos {
+        align-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .titulo-drop .dropdown {
+        margin-left: 300px;
+    }
+
+    .projetos-imagens .scratch img {
+        width: 110%;
+    }
+    
+    .projetos-imagens .scratch img:hover {
+        width: 120%;
+    }
+    
+    .projetos-imagens .arduino img {
+        margin-left: 40px;
+        width: 205px;
+    }
+    
+    .projetos-imagens .arduino img:hover {
+        margin-left: 40px;
+        width: 225px;
+    }
+    
+    .projetos-imagens .arduino p {
+        margin-left: 70px;
+    }
+    
+    .projetos-imagens .drone img {
+        margin-left: 20px;
+        width: 88.5%;
+    }
+    
+    .projetos-imagens .drone img:hover {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .projetos-imagens .resenha img {
+        margin-left: 20px;
+        width: 220px;
+    }
+
+    .resenha-text {
+        margin-left: 20px;
+   }
+    
+    .projetos-imagens .resenha img:hover {
+        margin-left: 0px;
+        width: 240px;
+    }
+
+    .projetos .projetos-imagens p {
+        padding-top: 10px;
+        padding-right: 0px;
+        padding-left: 60px;
+    }
+
+    .projetos-carregar {
+        margin-left: 600px;
+    }
+
+    .experiencia1, .experiencia2, .experiencia3{
+        margin-top: 10px;
+        background-color: rgb(252, 195, 204);
+        border-radius: 5px;
+    }
+
+    .experiencia1 img {
+        width: 100%;
+        margin: 20px;
+        border-radius: 5px;
+    }
+
+    .experiencias .experiencia2 img {
+        width: 100%;
+        margin: 20px;
+        border-radius: 5px;
+    }
+    
+    .experiencias .experiencia3 img {
+        width: 70%;
+        margin: 20px 20px 20px 80px;
+        border-radius: 5px;
+    }
+
+    .experiencia1 p, .experiencia2 p, .experiencia3 p {
+        margin-left: 10px;
+    }
+
+    .experiencia1 h2, .experiencia2 h2, .experiencia3 h2 {
+        margin-top: 50px;
+        margin-left: 10px;
+    }
+
+    .experiencia1 h3, .experiencia2 h3, .experiencia3 h3 {
+        margin-left: 10px;
+    }
+
+    .experiencias-carregar {
+        margin-left: 600px;
+    }
+
+    .repositorios-carregar {
+        margin-left: 600px;
+    }
+
+    .conteudo-carregar {
+        margin-left: 600px;
+        margin-bottom: 20px;
+    }
+}
+
+
+@media screen and (min-width: 770px) and (max-width: 991px) {
+
+    #ft1{
+        width: 60%;
+    }
+    
+    #ft2{
+        width: 60%;
+    }
+    
+    #ft3{
+        width: 60%;
+    }
+
+    .main #perfil-fotos {
+        align-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .titulo-drop .dropdown {
+        margin-left: 30px;
+    }
+
+    .projetos-imagens {
+        margin-left: 20px;
+    }
+
+    .projetos-imagens .scratch img {
+        width: 85%;
+    }
+    
+    .projetos-imagens .scratch img:hover {
+        width: 120%;
+    }
+
+    .projetos-imagens .scratch-text {
+        margin-top: 10px;
+        margin-left: 85px;
+    }
+    
+    .projetos-imagens .arduino img {
+        margin-left: 40px;
+        width: 205px;
+    }
+    
+    .projetos-imagens .arduino img:hover {
+        margin-left: 40px;
+        width: 225px;
+    }
+
+    .projetos-imagens .arduino-text {
+        margin-top: 10px;
+        margin-left: 85px;
+    }
+    
+    .projetos-imagens .drone img {
+        margin-left: 25px;
+        width: 220px;
+    }
+    
+    .projetos-imagens .drone img:hover {
+        margin-left: 25px;
+        width: 240px;
+    }
+
+    .projetos-imagens .drone-text {
+        margin-top: 10px;
+        margin-left: 85px;
+    }
+
+    .projetos-imagens .resenha img {
+        margin-left: 30px;
+        width: 220px;
+    }
+    
+    .projetos-imagens .resenha img:hover {
+        margin-left: 0px;
+        width: 240px;
+    }
+
+    .projetos-imagens .resenha-text {
+        margin-top: 10px;
+        margin-left: 85px;
+    }
+
+    .projetos-carregar {
+        margin-left: 200px;
+    }
+
+    .experiencia1, .experiencia2, .experiencia3{
+        margin-top: 10px;
+        background-color: rgb(252, 195, 204);
+        border-radius: 5px;
+    }
+
+    .experiencias .experiencia1 img {
+        width: 130%;
+        margin: 50px 5px 0px 0px;
+    }
+
+    .experiencias .experiencia2 img {
+        width: 130%;
+        margin: 50px 5px 0px 0px;
+    }
+    
+    .experiencias .experiencia3 img {
+        width: 90%;
+        margin: 50px 5px 0px 25px;
+    }
+
+    .experiencia1 p, .experiencia2 p, .experiencia3 p {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h2, .experiencia2 h2, .experiencia3 h2 {
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h3, .experiencia2 h3, .experiencia3 h3 {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencias-carregar {
+        margin-left: 200px;
+    }
+
+    .repositorios-carregar {
+        margin-left: 200px;
+    }
+
+    .conteudo-carregar {
+        margin-left: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 769px) {
+
+    #ft1{
+        width: 60%;
+    }
+    
+    #ft2{
+        width: 60%;
+    }
+    
+    #ft3{
+        width: 60%;
+    }
+
+    .main #perfil-fotos {
+        align-content: center;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .titulo-drop .dropdown {
+        margin-left: 30px;
+    }
+
+    .projetos-imagens .scratch img {
+        margin-left: 40px;
+        width: 75%;
+    }
+    
+    .projetos-imagens .scratch img:hover {
+        margin-left: 40px;
+        width: 95%;
+    }
+
+    .projetos-imagens .scratch-text {
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+    
+    .projetos-imagens .arduino img {
+        margin-left: 80px;
+        width: 225px;
+    }
+    
+    .projetos-imagens .arduino img:hover {
+        margin-left: 80px;
+        width: 245px;
+    }
+
+    .projetos-imagens .arduino-text {
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+    
+    .projetos-imagens .drone img {
+        margin-left: 75px;
+        width: 240px;
+    }
+    
+    .projetos-imagens .drone img:hover {
+        margin-left: 75px;
+        width: 260px;
+    }
+
+    .projetos-imagens .drone-text {
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+
+    .projetos-imagens .resenha img {
+        margin-left: 75px;
+        width: 240px;
+    }
+    
+    .projetos-imagens .resenha img:hover {
+        margin-left: 75px;
+        width: 260px;
+    }
+
+    .projetos-imagens .resenha-text {
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+
+    .projetos-carregar {
+        margin-left: 200px;
+    }
+
+    .experiencia1, .experiencia2, .experiencia3{
+        margin-top: 10px;
+        background-color: rgb(252, 195, 204);
+        border-radius: 5px;
+    }
+
+    .experiencias .experiencia1 img {
+        width: 80%;
+        margin: 10px 5px 0px 65px;
+    }
+
+    .experiencias .experiencia2 img {
+        width: 80%;
+        margin: 10px 5px 0px 65px;
+    }
+    
+    .experiencias .experiencia3 img {
+        width: 50%;
+        margin: 10px 5px 0px 135px;
+    }
+
+    .experiencia1 p, .experiencia2 p, .experiencia3 p {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h2, .experiencia2 h2, .experiencia3 h2 {
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h3, .experiencia2 h3, .experiencia3 h3 {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencias-carregar {
+        margin-left: 200px;
+    }
+
+    .repositorios-carregar {
+        margin-left: 200px;
+    }
+
+    .conteudo-carregar {
+        margin-left: 200px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 300px) and (max-width: 599px) {
+
+    .header .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #barra {
+        max-width: 100%;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #barra input {
+        margin-right: 10px;
+    }
+
+    #ft1{
+        width: 45%;
+    }
+    
+    #ft2{
+        width: 45%;
+    }
+    
+    #ft3{
+        width: 45%;
+    }
+
+    .main #perfil-fotos {
+        align-content: center;
+        align-items: center;
+        padding-top: 5px;
+    }
+
+    #perfil-texto p {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    #perfil-texto .social-icons {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .titulo-drop .dropdown {
+        margin-left: 0px;
+    }
+
+    .projetos .titulo-drop h1 {
+        margin-top: 35px;
+    }
+    
+    .projetos-imagens .scratch img {
+        margin-left: 20px;
+        width: 80%;
+    }
+    
+    .projetos-imagens .scratch img:hover {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .projetos-imagens .scratch-text {
+        margin-top: 10px;
+        margin-left: 115px;
+    }
+    
+    .projetos-imagens .arduino img {
+        margin-left: 30px;
+        width: 205px;
+    }
+    
+    .projetos-imagens .arduino img:hover {
+        margin-left: 30px;
+        width: 225px;
+    }
+
+    .projetos-imagens .arduino-text {
+        margin-top: 10px;
+        margin-left: 115px;
+    }
+    
+    .projetos-imagens .drone img {
+        margin-left: 25px;
+        width: 220px;
+    }
+    
+    .projetos-imagens .drone img:hover {
+        margin-left: 25px;
+        width: 240px;
+    }
+
+    .projetos-imagens .drone-text {
+        margin-top: 10px;
+        margin-left: 115px;
+    }
+
+    .projetos-imagens .resenha img {
+        margin-left: 25px;
+        width: 220px;
+    }
+    
+    .projetos-imagens .resenha img:hover {
+        margin-left: 25px;
+        width: 240px;
+    }
+
+    .projetos-imagens .resenha-text {
+        margin-top: 10px;
+        margin-left: 115px;
+    }
+
+    .projetos-carregar {
+        margin-left: 0px;
+    }
+
+    .experiencias .experiencias-titulo h1 {
+        margin-top: 35px;
+    }
+
+    .experiencia1, .experiencia2, .experiencia3{
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 5px;
+        background-color: rgb(252, 195, 204);
+        border-radius: 5px;
+    }
+
+    .experiencias .experiencia1 img {
+        width: 40%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .experiencias .experiencia2 img {
+        width: 40%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    .experiencias .experiencia3 img {
+        width: 25%;
+        margin: 20px 5px 0px 65px;
+        border-radius: 0%;
+    }
+
+    .experiencia1 p, .experiencia2 p, .experiencia3 p {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h2, .experiencia2 h2, .experiencia3 h2 {
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h3, .experiencia2 h3, .experiencia3 h3 {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .experiencias-carregar {
+        margin-left: 0px;
+        margin-bottom: 85px;
+    }
+
+    .repositorios-titulo h1 {
+        margin-top: 5px;
+        font-size: 35px;
+    }
+
+    .repositorios-carregar {
+        margin-left: 0px;
+    }
+
+    .conteudo-titulo h1 {
+        margin-top: 55px;
+        font-size: large;
+    }
+
+    .conteudo-carregar button {
+        font-size: 15px;
+        margin-right: 300px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 299px) {
+
+    .header {
+        padding-left: 70px;
+    }
+
+    .header .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #barra {
+        max-width: 100%;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #barra input {
+        margin-right: 10px;
+    }
+
+    #ft1{
+        width: 45%;
+    }
+    
+    #ft2{
+        width: 45%;
+    }
+    
+    #ft3{
+        width: 45%;
+    }
+
+    .main #perfil-fotos {
+        align-content: center;
+        align-items: center;
+        padding-top: 5px;
+    }
+
+    #perfil-texto p {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    #perfil-texto .social-icons {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .titulo-drop .dropdown {
+        margin-left: 0px;
+    }
+
+    .projetos .titulo-drop h1 {
+        margin-top: 35px;
+    }
+
+    .projetos-imagens .scratch img {
+        margin-left: 60px;
+        width: 90%;
+    }
+    
+    .projetos-imagens .scratch img:hover {
+        margin-left: 60px;
+        width: 90%;
+    }
+
+    .projetos-imagens .scratch-text {
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+    
+    .projetos-imagens .arduino img {
+        margin-left: 80px;
+        width: 225px;
+    }
+    
+    .projetos-imagens .arduino img:hover {
+        margin-left: 80px;
+        width: 245px;
+    }
+
+    .projetos-imagens .arduino-text {
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+    
+    .projetos-imagens .drone img {
+        margin-left: 75px;
+        width: 240px;
+    }
+    
+    .projetos-imagens .drone img:hover {
+        margin-left: 75px;
+        width: 260px;
+    }
+
+    .projetos-imagens .drone-text {
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+
+    .projetos-imagens .resenha img {
+        margin-left: 75px;
+        width: 240px;
+    }
+    
+    .projetos-imagens .resenha img:hover {
+        margin-left: 75px;
+        width: 260px;
+    }
+
+    .projetos-imagens .resenha-text {
+        margin-top: 10px;
+        margin-left: 135px;
+    }
+
+    .projetos-carregar {
+        margin-left: 0px;
+    }
+
+    .experiencias .experiencias-titulo h1 {
+        margin-top: 35px;
+    }
+
+    .experiencia1, .experiencia2, .experiencia3{
+        margin-top: 10px;
+        margin-left: 0px;
+        margin-right: 5px;
+        background-color: rgb(252, 195, 204);
+        border-radius: 5px;
+    }
+
+    .experiencias .experiencia1 img {
+        width: 40%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .experiencias .experiencia2 img {
+        width: 40%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    .experiencias .experiencia3 img {
+        width: 25%;
+        margin: 20px 5px 0px 65px;
+        border-radius: 0%;
+    }
+
+    .experiencia1 p, .experiencia2 p, .experiencia3 p {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h2, .experiencia2 h2, .experiencia3 h2 {
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h3, .experiencia2 h3, .experiencia3 h3 {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .experiencias-carregar {
+        margin-left: 0px;
+        margin-bottom: 85px;
+    }
+
+    .repositorios-titulo h1 {
+        margin-top: 5px;
+        font-size: 35px;
+    }
+
+    .repositorios-carregar {
+        margin-left: 0px;
+    }
+
+    .conteudo-titulo h1 {
+        margin-top: 55px;
+        font-size: large;
+    }
+
+    .conteudo-carregar {
+        font-size: 1px;
+        margin-right: 100px;
+        margin-bottom: 20px;
+    }
+}
