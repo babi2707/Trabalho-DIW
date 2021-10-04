@@ -78,40 +78,17 @@ main #perfil-texto p:first-of-type {
 }
 
 /*------------- Main ------------- */
+
+.perfil {
+    margin-top: 50px;
+}
+
 #perfil-texto {
     padding: 10px;
 }
 
-.projetos-imagens .scratch img {
-    width: 110%;
-}
-
-.projetos-imagens .scratch img:hover {
-    width: 120%;
-}
-
-.projetos-imagens .arduino img {
-    margin-left: 40px;
-    width: 205px;
-}
-
-.projetos-imagens .arduino img:hover {
-    margin-left: 40px;
-    width: 225px;
-}
-
-.projetos-imagens .arduino p {
-    margin-left: 70px;
-}
-
-.projetos-imagens .drone img {
-    margin-left: 0px;
-    width: 220px;
-}
-
-.projetos-imagens .drone img:hover {
-    margin-left: 0px;
-    width: 240px;
+.projetos {
+    padding-top: 100px;
 }
 
 .projetos-imagens p {
@@ -128,7 +105,7 @@ main #perfil-texto p:first-of-type {
 }
 
 .experiencias {
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .experiencias p a {
@@ -162,6 +139,10 @@ main #perfil-texto p:first-of-type {
 
 .experiencias-carregar {
     margin-top: 20px;
+}
+
+.repositorios {
+    margin-top: 100px;
 }
 
 .repositorios h2 {
@@ -236,16 +217,18 @@ main #perfil-texto p:first-of-type {
     color:rgb(103, 51, 172);
 }
 
+.conteudo {
+    margin-top: 100px;
+}
+
 .conteudo-carregar {
     margin-top: 20px;
 }
 
-.conteudo {
-    margin-top: 20px;
-}
-
 .conteudo iframe {
+    border-radius: 7px;
     max-width: 100%;
+    padding-top: 20px;
 }
 
 .conteudo-videos h2 {
@@ -271,11 +254,6 @@ main #perfil-texto p:first-of-type {
 
 @media screen and (min-width: 992px) {
 
-    .header ul li {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
     #ft1{
         width: 80%;
     }
@@ -294,13 +272,54 @@ main #perfil-texto p:first-of-type {
         padding-top: 50px;
     }
 
-    .navbar-bar {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
     .titulo-drop .dropdown {
         margin-left: 300px;
+    }
+
+    .projetos-imagens .scratch img {
+        width: 110%;
+    }
+    
+    .projetos-imagens .scratch img:hover {
+        width: 120%;
+    }
+    
+    .projetos-imagens .arduino img {
+        margin-left: 40px;
+        width: 205px;
+    }
+    
+    .projetos-imagens .arduino img:hover {
+        margin-left: 40px;
+        width: 225px;
+    }
+    
+    .projetos-imagens .arduino p {
+        margin-left: 70px;
+    }
+    
+    .projetos-imagens .drone img {
+        margin-left: 20px;
+        width: 88.5%;
+    }
+    
+    .projetos-imagens .drone img:hover {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .projetos-imagens .resenha img {
+        margin-left: 20px;
+        width: 220px;
+    }
+
+    .resenha-text {
+        margin-left: 20px;
+   }
+    
+    .projetos-imagens .resenha img:hover {
+        margin-left: 0px;
+        width: 240px;
     }
 
     .projetos .projetos-imagens p {
@@ -382,11 +401,6 @@ main #perfil-texto p:first-of-type {
 
 @media screen and (min-width: 770px) and (max-width: 991px) {
 
-    .header ul li {
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
     #ft1{
         width: 60%;
     }
@@ -409,16 +423,66 @@ main #perfil-texto p:first-of-type {
         margin-left: 30px;
     }
 
-    .projetos img {
-        padding-top: 10px;
-        padding-right: 0px;
-        padding-left: 30px;
+    .projetos-imagens {
+        margin-left: 20px;
     }
 
-    .projetos .projetos-imagens p {
-        padding-top: 10px;
-        padding-right: 0px;
-        padding-left: 120px;
+    .projetos-imagens .scratch img {
+        width: 85%;
+    }
+    
+    .projetos-imagens .scratch img:hover {
+        width: 120%;
+    }
+
+    .projetos-imagens .scratch-text {
+        margin-top: 10px;
+        margin-left: 85px;
+    }
+    
+    .projetos-imagens .arduino img {
+        margin-left: 40px;
+        width: 205px;
+    }
+    
+    .projetos-imagens .arduino img:hover {
+        margin-left: 40px;
+        width: 225px;
+    }
+
+    .projetos-imagens .arduino-text {
+        margin-top: 10px;
+        margin-left: 85px;
+    }
+    
+    .projetos-imagens .drone img {
+        margin-left: 25px;
+        width: 220px;
+    }
+    
+    .projetos-imagens .drone img:hover {
+        margin-left: 25px;
+        width: 240px;
+    }
+
+    .projetos-imagens .drone-text {
+        margin-top: 10px;
+        margin-left: 85px;
+    }
+
+    .projetos-imagens .resenha img {
+        margin-left: 30px;
+        width: 220px;
+    }
+    
+    .projetos-imagens .resenha img:hover {
+        margin-left: 0px;
+        width: 240px;
+    }
+
+    .projetos-imagens .resenha-text {
+        margin-top: 10px;
+        margin-left: 85px;
     }
 
     .projetos-carregar {
@@ -475,29 +539,14 @@ main #perfil-texto p:first-of-type {
         margin-bottom: 20px;
     }
 
-    .footer {
-        background-color: rgb(230, 169, 179);
-    }
-
-    .footer p {
-        padding-left: 80px;
-        padding-top: 20px;
-        font-size: large;
-    }
-
     .footer img {
         width: 150%;
-        margin-left: 200px;
+        justify-items: center;
     }
 
 }
 
 @media screen and (min-width: 600px) and (max-width: 769px) {
-
-    .header ul li {
-        display: flex;
-        flex-wrap: nowrap;
-    }
 
     #ft1{
         width: 60%;
@@ -603,11 +652,26 @@ main #perfil-texto p:first-of-type {
     }
 }
 
-@media screen and (max-width: 599px) {
+@media screen and (min-width: 300px) and (max-width: 599px) {
 
-    .header ul li {
+    .header {
+        padding-left: 70px;
+    }
+
+    .header .navbar ul {
         display: flex;
         flex-wrap: wrap;
+    }
+    
+    #barra {
+        max-width: 100%;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #barra input {
+        margin-right: 10px;
     }
 
     #ft1{
@@ -646,17 +710,164 @@ main #perfil-texto p:first-of-type {
         margin-top: 35px;
     }
 
-    .projetos .projetos-imagens p {
-        padding-top: 10px;
-        padding-right: 0px;
-        padding-left: 100px;
+    .projetos .projetos-imagens .scratch img {
+        width: 70%;
+        margin-left: 75px;
     }
 
-    .projetos img {
-        width: 90%;
+    .projetos-carregar {
+        margin-left: 0px;
+    }
+
+    .experiencias .experiencias-titulo h1 {
+        margin-top: 35px;
+    }
+
+    .experiencia1, .experiencia2, .experiencia3{
         margin-top: 10px;
+        margin-left: 0px;
         margin-right: 5px;
+        background-color: rgb(252, 195, 204);
+        border-radius: 5px;
+    }
+
+    .experiencias .experiencia1 img {
+        width: 40%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+
+    .experiencias .experiencia2 img {
+        width: 40%;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    
+    .experiencias .experiencia3 img {
+        width: 25%;
+        margin: 20px 5px 0px 65px;
+        border-radius: 0%;
+    }
+
+    .experiencia1 p, .experiencia2 p, .experiencia3 p {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h2, .experiencia2 h2, .experiencia3 h2 {
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .experiencia1 h3, .experiencia2 h3, .experiencia3 h3 {
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .experiencias-carregar {
+        margin-left: 0px;
+        margin-bottom: 85px;
+    }
+
+    .repositorios-titulo h1 {
+        margin-top: 5px;
+        font-size: 35px;
+    }
+
+    .repositorios-carregar {
+        margin-left: 0px;
+    }
+
+    .conteudo-titulo h1 {
+        margin-top: 55px;
+        font-size: large;
+    }
+
+    .conteudo-carregar button {
+        font-size: 0.5px;
+        margin-right: 300px;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        background-color: rgb(230, 169, 179);
+    }
+
+    .footer p {
+        padding-left: 40px;
+        padding-right: 30px;
+        padding-top: 20px;
+        font-size: small;
+    }
+
+    .footer img {
+        width: 60%;
+        margin-left: 65px;
+    }
+}
+
+@media screen and (max-width: 299px) {
+
+    .header {
+        padding-left: 70px;
+    }
+
+    .header .navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #barra {
+        max-width: 100%;
+        margin-right: 20px;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    #barra input {
+        margin-right: 10px;
+    }
+
+    #ft1{
+        width: 45%;
+    }
+    
+    #ft2{
+        width: 45%;
+    }
+    
+    #ft3{
+        width: 45%;
+    }
+
+    .main #perfil-fotos {
+        align-content: center;
+        align-items: center;
+        padding-top: 5px;
+    }
+
+    #perfil-texto p {
+        margin-right: 15px;
         margin-left: 15px;
+    }
+
+    #perfil-texto .social-icons {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    .titulo-drop .dropdown {
+        margin-left: 0px;
+    }
+
+    .projetos .titulo-drop h1 {
+        margin-top: 35px;
+    }
+
+    .projetos .projetos-imagens .scratch img {
+        width: 70%;
+        margin-left: 75px;
     }
 
     .projetos-carregar {
