@@ -1,0 +1,370 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/79c73401cd.js" crossorigin="anonymous"></script>
+
+    <!-- <link rel="stylesheet" href="trabalho01-style.css"> -->
+
+    <link rel="stylesheet" href="trabalho01-style.css">
+
+    <title>Site da Bárbara</title>
+</head>
+
+<body>
+
+    <!------------------------------------ header ------------------------------------>
+    <header class="container-fluid header">
+        <div class="row">
+            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-xs-12">
+                <nav
+                    class="navbar navbar-expand justify-content-xl-between justify-content-lg-between justify-content-md-center justify-content-sm-center justify-content-xs-center">
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu-perfil">Perfil</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu-projetos">Projetos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu-experiencias">Experiências</a>
+                            </li>
+                            <li class="nav-item" id="menurep">
+                                <a class="nav-link" href="#menu-repositorios">Repositórios Github</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#menu-conteudo ">Conteúdo</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12">
+                <form id="barra"
+                    class="form-inline justify-content-xl-end justify-content-lg-end justify-content-md-center justify-content-sm-center justify-content-xs-start">
+                    <input class="form-control btn-outline-light mr-sm-2" type="search" placeholder=""
+                        aria-label="Search">
+                    <button class="btn btn-outline-danger my-2" type="submit">Search</button>
+                </form>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!------------------------------------ main ------------------------------------>
+    <main class="container main">
+
+        <!------------------------ perfil ----------------------->
+        <div id="menu-perfil" class="row perfil">
+            <div class="col-xl-1 col-lg-1"></div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12" id="perfil-fotos">
+                <div id="carouselExampleIndicators" class="carousel slide btn btn-outline-" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img id="ft1" class="" src="/imgs/ft-perfil3.jpeg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img id="ft2" class="" src="/imgs/foto-perfil2.jpeg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img id="ft3" class="" src="/imgs/img-perfil.jpeg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon btn btn-outline-danger" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon btn btn-outline-danger" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-xl-1 col-lg-1"></div>
+
+            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12" id="perfil-texto">
+                <h1>Bárbara Luciano Araújo</h1>
+                <p>Bárbara Luciano Araújo, gênero feminino, nasceu em 28 de Março de 2002, em Belo Horizonte, MG.
+                    Atualmente, em 2021, possui 21 anos, mora com os pais e duas irmãs e, faz o 1° Período do curso de
+                    Ciência da Computação na PUC MINAS em Belo Horizonte.
+                </p>
+                <p><strong>Objetivos: </strong> viajar e conhecer o mundo, morar por um tempo fora do Brasil, trabalhar
+                    em empresas renomadas como NASA, GOOGLE, FACEBOOK, entre outras.
+                </p>
+
+                <p class="redes"><b>Redes Sociais</b></p>
+                <nav class="social-icons">
+                    <a target="_blank" href="https://www.instagram.com/babi752/"><i class="fab fa-instagram"></i></a>
+                    <a target="_blank" href="https://www.facebook.com/barbara.luciano.986"><i
+                            class="fab fa-facebook-square"></i></a>
+                    <a target="_blank" href="https://www.tiktok.com/@barbi7528?lang=en"><i
+                            class="fab fa-tiktok"></i></a>
+                </nav>
+            </div>
+
+        </div>
+
+        <!------------------------ projetos ----------------------->
+        <div id="menu-projetos" class="container-fluid projetos">
+            <div class="row titulo-drop">
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-10 col-xs-10">
+                    <h1>Projetos</h1>
+                </div>
+                <div class="col-xl-6 col-lg-2 col-md-2 col-sm-0 col-xs-0"></div>
+                <div class="col-xl-2 col-lg-4 col-md-4 col-sm-10 col-xs-10">
+                    <div class="dropdown">
+                        <button class="btn btn-outline-danger dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Categoria:
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">Web Sites</a>
+                            <a class="dropdown-item" href="#">Arte Gráfica</a>
+                            <a class="dropdown-item" href="#">Podcast</a>
+                            <a class="dropdown-item" href="#">TODOS</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row projetos-imagens">
+                <div class="col-xl=3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                    <a class="scratch" target="_blank" href="https://scratch.mit.edu/projects/562279040/"><img
+                            src="/imgs/cobrinha.png"></a>
+                    <p class="scratch-text">Scratch - 2021</p>
+                </div>
+                <div class="col-xl=3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                    <a class="arduino" target="_blank"
+                        href="https://www.tinkercad.com/things/eW4okyqkMeF-projeto03-drone-nasa-v20/editel?sharecode=zz-9jxWAzKA8Fhrf5Q2RcluQs6sQZBoYubYdFsD0xsU"><img
+                            src="/imgs/tinkercad.png"></a>
+                    <p class="arduino-text">Arduino - 2021</p>
+                </div>
+                <div class="col-xl=3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                    <a class="drone" target="_blank" href="https://www.tinkercad.com/things/20PPwe4rleE"><img
+                            src="/imgs/drone.png"></a>
+                    <p class="drone-text">Drone 3D - 2021</p>
+                </div>
+                <div class="col-xl=3 col-lg-3 col-md-6 col-sm-12 col-xs-12">
+                    <a class="resenha" target="_blank"
+                        href="https://drive.google.com/file/d/1PO3WUG2AcnNPgOoqJmEBf8G_1o5Ouiht/view?usp=sharing"><img
+                            src="/imgs/IA.png"></a>
+                    <p class="resenha-text">Resenha - 2021</p>
+                </div>
+
+                <div class="row projetos-carregar">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-secondary"><i class="fas fa-plus"></i> Carregar mais
+                            projetos</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <!------------------------ experiências ----------------------->
+            <div id="menu-experiencias" class="container-fluid experiencias">
+                <div class="row experiencias-titulo">
+                    <div class="col-12">
+                        <h1>Experiências</h1>
+                    </div>
+                </div>
+
+                <div class="row experiencia1">
+                    <div class="col-xl-5 col-lg-4 col-md-3 col-sm-12 col-xs-12">
+                        <img src="imgs/logo-google.png">
+                    </div>
+                    <div class="col-xl-7 col-lg-8 col-md-9 col-sm-12 col-xs-12">
+                        <h2><strong>Função: </strong> Visitante</h2>
+                        <p>A escola em que estudava (<a target="_blank" href="https://santamaria.pucminas.br/">Colégio
+                                Santa Maria Minas</a>) concedeu a oportunidade de visitar a
+                            sede da <a target="_blank" href="https://3603d.com.br/google-belo-horizonte/">Google</a> em
+                            Belo
+                            Horizonte, em um projeto para incentivar mulheres no ramo da tecnologia.</p>
+                        <h3>Período: 05/06/2018 - 13h às 18h</h3>
+                    </div>
+                </div>
+
+                <div class="row experiencia2">
+                    <div class="col-xl-5 col-lg-4 col-md-3 col-sm-12 col-xs-12">
+                        <img src="imgs/bandeira-do-canada-simbolo.jpg">
+                    </div>
+                    <div class="col-xl-7 col-lg-8 col-md-9 col-sm-12 col-xs-12">
+                        <h2><strong>Função: </strong> Intercambista</h2>
+                        <p>Realizou um intercâmbio de 10 meses na cidade de <a target="_blank"
+                                href="https://pt.wikipedia.org/wiki/Ottawa">Ottawa, Ontario, Canadá</a>. Estudou na
+                            escola
+                            <a target="_blank" href="https://glebe.ocdsb.ca/">Glebe Colligiate Institute</a>, na "Grade
+                            12" (3° Ano EM).
+                        </p>
+                        <h3>Período: 08/2019 a 06/2020</h3>
+                    </div>
+                </div>
+
+                <div class="row experiencia3">
+                    <div id="puclogo" class="col-xl-5 col-lg-4 col-md-3 col-sm-12 col-xs-12">
+                        <img src="imgs/puclogo.png">
+                    </div>
+                    <div class="col-xl-7 col-lg-8 col-md-9 col-sm-12 col-xs-12">
+                        <h2><strong>Função: </strong> Estudante Universitária</h2>
+                        <p>Atualmente, faz o curso de <a target="_blank"
+                                href="https://www.pucminas.br/unidade/coracao-eucaristico/ensino/graduacao/Paginas/Ciencia-da-Computacao.aspx?tipo=152f25a5-fa8d-4d04-a7ba-57b6b4c21265&campi=ab23480c-5f60-4752-b990-1ac1cf9b8cf5&curso=180">Ciência
+                                da Computação</a>, na PUC MINAS (Universidade
+                            Pontifícia
+                            Católica de Minas Gerais), unidade Coração Eucarístico, Belo Horizonte.</p>
+                        <h3>Período: 08/2021 até o momento</h3>
+                    </div>
+                </div>
+
+                <div class="row experiencias-carregar">
+                    <div class="col-12">
+                        <button type="button" class="btn btn-secondary"><i class="fas fa-plus"></i> Carregar mais
+                            experiências</button>
+                    </div>
+
+
+                </div>
+
+                <!------------------------ Repositórios Github ----------------------->
+                <div id="menu-repositorios" class="container-fluid repositorios">
+
+                    <div class="row repositorios-titulo">
+                        <div class="col-12">
+                            <h1>Repositórios Github</h1>
+                        </div>
+                    </div>
+
+                    <div class="row repositorios-conteudo">
+                        <div id="rep1" class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-x-12">
+                            <a target="_blank" href="https://github.com/babi2707/Trabalho-DIW/blob/main/README.md"><i
+                                    class="fas fa-folder fa-2x"></i></a>
+                            <h2>Repositório DIW </h2>
+                            <p>Repositório do Trabalho 01 para a disciplina de DIW (Desenvolvimento de Interfaces WEB),
+                                no
+                                curso de Ciência da Computação, da PUC MINAS.</p>
+                            <h3>Atualizado em: 03/10/2021</h3>
+                        </div>
+
+                        <div id="rep2" class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                            <a target="_blank" href="https://github.com/babi2707/Connect-4-Game/blob/main/README.md"><i
+                                    class="fas fa-folder fa-2x"></i></a>
+                            <h2>Repositório CONNECT 4 </h2>
+                            <p>Jogo Connect 4 (em inglês) criado em 2020 por duas estudantes (Bárbara e Mai) da escola
+                                Glebe
+                                Colligiate Institute,
+                                para a matéria de Computer Science (Ciência da Computação) do 2° Semestre.</p>
+                            <h3>Atualizado em: 03/10/2021</h3>
+                        </div>
+
+                        <div id="rep3" class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                            <a target="_blank" href="https://github.com/babi2707/HANGMAN-"><i
+                                    class="fas fa-folder fa-2x"></i></a>
+                            <h2>Repositório HANGMAN </h2>
+                            <p>Jogo da Forca (em inglês) criado em 2020, para a matéria de Computer Science (Ciência da
+                                Computação)
+                                do 2° Semestre da escola Glebe Colligiate Institute.</p>
+                            <h3>Atualizado em: 03/10/2021</h3>
+                        </div>
+                    </div>
+
+                    <div class="row repositorios-carregar">
+                        <div class="col-12">
+                            <button type="button" class="btn btn-secondary"><i class="fas fa-plus"></i> Carregar mais
+                                repositórios</button>
+                        </div>
+                    </div>
+
+                    <!------------------------ Conteúdo ----------------------->
+                    <div id="menu-conteudo" class="container-fluid conteudo">
+
+                        <div class="row conteudo-titulo">
+                            <div class="col-12">
+                                <h1>Recomendação de Conteúdo</h1>
+                            </div>
+                        </div>
+
+                        <div class="row conteudo-videos">
+                            <div id="rec1" class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/j3EZo8hYB10"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <h2><strong>Vídeo:</strong> Apresenta a faculdade de Ciência da Computação.</h2>
+                                <h3><strong>Diretor:</strong> Lucas Felpi</h3>
+                                <h3><strong>Roteiro:</strong> Lucas Felpi | <strong> Estreia:</strong> ABR 2021</h3>
+                            </div>
+
+                            <div id="rec2" class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/peGUkhXD3Vw"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <h2><strong>Vídeo:</strong> Ensina como usar o Github dentro do VS Code.</h2>
+                                <h3><strong>Diretor:</strong> Professor Well</h3>
+                                <h3><strong>Roteiro:</strong> Professor Well | <strong> Estreia:</strong> ABR 2020</h3>
+                            </div>
+
+                            <div id="rec3" class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/jvg4VtYEhKU"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <h2><strong>Vídeo:</strong> Ensina como programar em C/C++ no VS Code.</h2>
+                                <h3><strong>Diretor:</strong> Tech Decode Tutorials </h3>
+                                <h3><strong>Roteiro:</strong> Tech Decode Tutorials | <strong>Estreia:</strong> OUT 2020
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="row conteudo-carregar">
+                            <div class="col-12">
+                                <button type="button" class="btn btn-secondary btn-sm"><i class="fas fa-plus"></i>
+                                    Carregar mais recomendações</button>
+                            </div>
+                        </div>
+                    </div>
+    </main>
+
+    <footer class="container-fluid footer">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p>Copyright 2021 - Disciplina de Desenvolvimento de Interfaces WEB - <strong> ICEI PUC MINAS</strong>
+                </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <nav class="navbar-footer w-xs-80">
+                    <a class="navbar-brand" target="_blank" href="https://icei.pucminas.br/">
+                        <img src="/imgs/icei_logo_final.png" class="img1">
+                    </a>
+                </nav>
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
